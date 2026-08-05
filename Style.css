@@ -217,5 +217,18 @@ li {
     .profile-photo img {
         width: 120px;
         height: 120px;
-    }
+    }.github-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.github-button:hover {
+    opacity: 0.8;
+}
 }
